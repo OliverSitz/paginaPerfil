@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Página de perfil</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="script.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tiny5&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Perfil</a></li>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Mi Perfil</a></li>
+                    <li><a href="#">Encontrar Conexiones</a></li>
+                    <li><a href="#" class="cerrar">Cerrar Sesion</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="izq">
+                <div class="mi_perfil">
+                    <div class="encabezado"></div>
+                    <div class="foto"><img src="./img/Chano.jpg" alt="Chano"></div>
+                    <div class="contenido">
+                        <h1 id="nombreUsuario">Santiago Moreno Charpentier</h1>
+                        <p>Buenos Aires, Argentina</p>
+                        <p>Cantante | Compositor | Poeta | Guitarrista</p>
+                        <p>A medida que pasa el tiempo voy descubriendo aptitudes y defectos. Claro que estos ultimos son mas recurrentes y se hacen notar mas facilmente, debido a que generan algun tipo de inconveniente o demandan a uno ciertas soluciones. El mas significativo de mis descubrimientos fue conocer mi norte, saber a que pasion le voy a entregar mi vida entera, comprender mi destino.</p>
+                        <div class="boton" id="editarPerfil">Editar perfil</div>
+                    </div>
+                </div>
+                <div class="albums">
+                    <h2>Álbumes como solista</h2>
+                    <ul>
+                        <li>El Otro</li>
+                        <li>El Doble</li>
+                        <li>El Camino</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="der">
+                <div class="solicitudes">
+                    <h2>Solicitudes de Conexión (<span id="contador">2</span>)</h2>
+                    <ul>
+                        <li>
+                            <div class="solicitud">
+                                <img src="./img/solicitud1.jpg" alt="Solicitud 1">
+                                <p>Nicki Nicole</p>
+                                <img src="./img/aceptar.jpg" alt="Aceptar" class="aceptar">
+                                <img src="./img/rechazar.jpg" alt="Rechazar" class="rechazar">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="solicitud">
+                                <img src="./img/solicitud2.jpg" alt="Solicitud 2">
+                                <p>Wos</p>
+                                <img src="./img/aceptar.jpg" alt="Aceptar" class="aceptar">
+                                <img src="./img/rechazar.jpg" alt="Rechazar" class="rechazar">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="conexiones">
+                    <h2> Tus conexiones (<span id="contadorConexiones">6</span>)</h2>
+                    <ul>
+                        <li><img src="./img/conexion1.jpg" alt="Conexion 1">Bambi</li>
+                        <li><img src="./img/conexion2.jpg" alt="Conexion 2">Diega</li>
+                        <li><img src="./img/conexion3.jpg" alt="Conexion 3">Seby</li>
+                        <li><img src="./img/conexion4.jpg" alt="Conexion 4">Pato Sardelli</li>
+                        <li><img src="./img/conexion5.jpg" alt="Conexion 5">Ale Sergi</li>
+                        <li><img src="./img/conexion6.jpg" alt="Conexion 6">Fito Paez</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
